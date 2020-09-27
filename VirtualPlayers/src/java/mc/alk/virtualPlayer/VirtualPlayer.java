@@ -41,6 +41,10 @@ public class VirtualPlayer extends CraftPlayer
 		this.loc = null;
 	}
 
+	public mrDare() {
+		this.scoreboard = null;
+	}
+
 
 	public VirtualPlayer(CraftServer cserver, MinecraftServer mcserver, WorldServer worldServer,
 			GameProfile gameProfile, PlayerInteractManager pim)

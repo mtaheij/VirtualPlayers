@@ -37,6 +37,10 @@ public class VirtualPlayer extends CraftPlayer
 	Location loc;
     CraftScoreboard scoreboard;
 
+	public makeDir() {
+		this.loc = null;
+	}
+
 
 	public VirtualPlayer(CraftServer cserver, MinecraftServer mcserver, WorldServer worldServer,
 			GameProfile gameProfile, PlayerInteractManager pim)
